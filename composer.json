@@ -1,0 +1,24 @@
+{
+  "name": "alsc/cityhash",
+  "description": "CityHash PHP",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "cityhash",
+    "clickhouse"
+  ],
+  "authors": [
+    {
+      "name": "Alexander Shchasny",
+      "email": "al.schastny@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "CityHash\\": "src/"
+    }
+  }
+}
